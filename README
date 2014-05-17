@@ -40,3 +40,9 @@ Third parameter: Packet arrival rate
 Fourth parameter: Packet service rate
 Fifth parameter: Maximun number of simulation iterations
 Sixth parameter: Eps
+
+Misc 
+============  
+
+For any bugs or comments/contributions, please contact 
+Spyridon (Spiros) Mastorakis <spiros[dot]mastorakis[at]gmail[dot]com> 
