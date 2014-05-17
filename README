@@ -1,0 +1,42 @@
+README - Queueing System modeled as a Markov Chain
+
+Overview
+============
+
+This code simulates a Queuing System modeled as a 
+discrete time Markov Chain. Assuming an empty queue, 
+incoming packets are not serviced until their number 
+reaches a given threshold. If the queue becomes empty 
+again, the aforementioned policy is followed. This 
+policy is typical of a queueing system used for video 
+streaming. 
+
+Requirements
+============
+
+All you need is a recent gcc compiler version and the
+C Standard Library. Just run $ make for compilation.
+
+Usage
+============
+
+There are two ways to simulate queueing systems under
+varying configurations: 
+
+1) Using the bash script run_markov.sh . The value of 
+   the required input parameters are specified in this 
+   script
+
+2) Running $ ./markov together with the required input 
+   parameters
+
+In either case, the required input parameters are the 
+following:
+
+First parameter: Queueing system capacity
+Second parameter: Threshold for buffering incoming packets
+without servicing them
+Third parameter: Packet arrival rate
+Fourth parameter: Packet service rate
+Fifth parameter: Maximun number of simulation iterations
+Sixth parameter: Eps
